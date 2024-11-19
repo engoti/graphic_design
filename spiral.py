@@ -17,3 +17,6 @@ turtle.speed(ANIMATION_SPEED)
 for x in range(NUM_LINES):
     turtle.forward(LINE_LENGTH)
     turtle.left(ANGLE)
+    
+turtle.hideturtle()
+turtle.done()
